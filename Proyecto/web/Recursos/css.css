@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+body{    
+  font-family: 'Lobster', cursive;
+  color:white;
+  text-align: center;
+
+  
+  
+background-color: #f1c40f;
+    -webkit-animation: color 5s ease-in  0s infinite alternate running;
+    -moz-animation: color 5s linear  0s infinite alternate running;
+    animation: color 5s linear  0s infinite alternate running;
+}
+
+.btn {
+  background: none;
+  border: 2px solid;
+  border-bottom-width: 4px;
+  font: inherit;
+  letter-spacing: inherit;
+  margin: 1em;
+  padding: 1em 2em;
+  text-transform: inherit;
+  transition: color 1s;
+}
+
+
+.btn-3 {
+  color: #d3f169;
+}
+.btn-3:hover {
+  -webkit-animation: sawtooth 0.35s infinite linear;
+          animation: sawtooth 0.35s infinite linear;
+  background: linear-gradient(45deg, #d3f169 0.5em, transparent 0.5em) 0 0/1em 1em, linear-gradient(-45deg, #d3f169 0.5em, transparent 0.5em) 0 0/1em 1em;
+  color: #000;
+}
+
+@-webkit-keyframes sawtooth {
+  100% {
+    background-position: 1em 0;
+  }
+}
+
+@keyframes sawtooth {
+  100% {
+    background-position: 1em 0;
+  }
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes color {
+    0% { background-color: #f1c40f; }
+    32% { background-color: #e74c3c; }
+    55% { background-color: #9b59b6; }
+    76% { background-color: #16a085; }
+    100% { background-color: #2ecc71; }
+}
+@-moz-keyframes color {
+     0% { background-color: #f1c40f; }
+    32% { background-color: #e74c3c; }
+    55% { background-color: #9b59b6; }
+    76% { background-color: #16a085; }
+    100% { background-color: #2ecc71; }
+}
+@keyframes color {
+  0% { background-color: #f1c40f; }
+    32% { background-color: #e74c3c; }
+    55% { background-color: #9b59b6; }
+    76% { background-color: #16a085; }
+    100% { background-color: #2ecc71; }
+}
+
+
